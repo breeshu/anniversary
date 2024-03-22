@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Question 4</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Chilanka&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div>
+            <h1 id="question">4. What was the first ever Roblox Tycoon we played?</h1>
+            <ol>
+                <li type="A"><button class="answer-choice" data-correct="false">Mansion Tycoon</button></li>
+                <li type="A"><button class="answer-choice" data-correct="true">House Tycoon</button></li>
+                <li type="A"><button class="answer-choice" data-correct="false">Barbie Tycoon</button></li>
+                <li type="A"><button class="answer-choice" data-correct="false">Hello Kitty Tycoon</button></li>
+            </ol>
+            <div class="submitbtn">
+                <button id="submit-btn">Submit Answer</button>
+            </div>
+        </div>
+    
+        <script src="quiz.js">
+        </script>
+    </body>
+    <style>
+         body {
+        color: white;
+        font-family: "Chilanka", cursive;
+        font-weight: 400;
+        font-style: normal;
+        text-shadow: 1px 1px 5px #726da8;
+        margin: 0;
+        padding: 0;
+        background-image: url('https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGc1OWR1ZGhtYjkwZmFlNndiNHM4Z2RoYWtwcjVia2hiOGhvZnA2MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/DoHGKMzgXl56jRQfvX/giphy.gif');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    h1 {
+        margin-top: 30px;
+        margin-left: 40px;
+        font-size: 80px;
+    }
+    li {
+        font-size: 70px;
+        margin-left: 70px;
+    }
+    button {
+        color: #726da8;
+        border-radius: 5px;
+        border: none;
+        color: #726da8;
+        padding: 10px 45px;
+        font-family: "Chilanka", cursive;
+        font-style: normal;
+        text-shadow: 1px 1px 2px #726da8;
+        box-shadow: 0.5px 1px 2px #726da8;
+        font-size: 60px;
+        margin-left: 75px;
+        margin-bottom: 30px;
+        margin-top: 20px;
+        transition: opacity 0.7s;
+    }
+    button:hover {
+        opacity: 0.7;
+        cursor: pointer;
+        transform: scale(1.05);
+        box-shadow: 1px 1px 10px;
+    }
+    button:active {
+        opacity: 0.6;
+        cursor: pointer;
+        transform: none;
+    }
+    .answer-choice.selected {
+        opacity: 0.6;
+        box-shadow: 1px 1px 2px black;
+    }
+    .submitbtn {
+        text-align: center;
+    }
+    </style>
+    </html>
